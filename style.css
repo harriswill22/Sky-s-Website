@@ -53,7 +53,13 @@
   text-transform: uppercase;
   text-align: left;
 }
-
+.Headlines{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  Top: 27em
+}
 .hero-button {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
@@ -62,7 +68,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 70px;
-  padding: 150px 220px;
+  padding: 100px 10px;
   text-decoration: none;
 }
 
