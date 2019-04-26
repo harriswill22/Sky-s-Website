@@ -69,30 +69,33 @@ body {
 }
 .Headlines{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   position: absolute;
   Top: 27em
 }
 .hero-button {
-  color: white;
-  font-family: "Roboto Condensed", sans-serif;
+  width: 100%;
+  color: rgb(131, 26, 26);
+  font-family: 'Gloria Hallelujah', cursive;;
   font-size: 24px;
   float: left;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 70px;
+  letter-spacing: 1px;
+  margin-top: 45px;
   padding: 100px 10px;
   text-decoration: none;
 }
 
 .hero-title {
-  color: white;
+  color: rgb(131, 26, 26);
   font-family: "Playfair Display", serif;
   font-size: 17vw;
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 1.1;
+  margin-left: 5rem;
+  
   margin: 5px 0;
   text-align: left;
   width: 85%;
@@ -106,16 +109,54 @@ body {
 .Mula {
   background-color: black;
   height: auto;
-  padding: 30px 20px;
+  padding: 40px 20px;
   position: relative;
   width: 100%;
 }
 
 .Mula p {
-  color: #25373D;
+  color: rgb(131, 26, 26);
   font-family: "Playfair Display", serif;
   font-size: 18px;
   line-height: 1.5;
+}
+.Mula h1{
+  color: rgb(131, 26, 26);
+  
+
+}
+.Contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+  flex-direction: column;
+}
+
+.Contact-Me {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contactIcons {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  color: black;
+}
+.contactIcons a {
+  color: black;
+}
+.contactIcons i {
+  margin: 20px;
+}
+
+.contactIcons i:hover {
+  color: rgb(131, 26, 26);
+  transform: scale(2);
+  transition: all 0.9s ease-out;
 }
 
 @-webkit-keyframes fadeInLeft {
