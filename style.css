@@ -77,12 +77,12 @@ body {
 .hero-button {
   width: 100%;
   color: rgb(131, 26, 26);
-  font-family: 'Gloria Hallelujah', cursive;;
+  font-family: 'ZCOOL KuaiLe', cursive;
   font-size: 24px;
   float: left;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-top: 45px;
+  margin-top: 120px;
   padding: 100px 10px;
   text-decoration: none;
 }
@@ -121,7 +121,7 @@ body {
   line-height: 1.5;
 }
 .Mula h1{
-  color: rgb(131, 26, 26);
+  color: rgb(253, 253, 253);
   
 
 }
